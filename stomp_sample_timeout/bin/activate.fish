@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/private/tmp/stomp_test"
+set -gx VIRTUAL_ENV "/Users/imsrk/Documents/Projects/DTB/KE/py-projects/stomp_sample_timeout"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(stomp_test) "            
-            printf "%s%s" "(stomp_test) " (set_color normal)
+        if test -n "(stomp_sample_timeout) "            
+            printf "%s%s" "(stomp_sample_timeout) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")
